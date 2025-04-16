@@ -19,12 +19,12 @@
 
 
 
-let isloggedIn = "undefined"; // string
+// let isloggedIn = "undefined"; // string
 
 
 
-let booleanisloggedIn = Boolean(isloggedIn); // convert string to boolean
-console.log(booleanisloggedIn); 
+// let booleanisloggedIn = Boolean(isloggedIn); // convert string to boolean
+// console.log(booleanisloggedIn); 
 //1= > true
 //0=> false
 //"abc"=> true
@@ -36,3 +36,11 @@ console.log(booleanisloggedIn);
 //"null"=> true
 //"undefined"=> true
 //"NaN"=> true
+
+
+
+
+let SomeNumber =33;
+let stringNumber = String(SomeNumber); // convert number to string
+console.log(stringNumber); // "33"
+console.log(typeof stringNumber); // string
